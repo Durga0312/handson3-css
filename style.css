@@ -1,0 +1,171 @@
+body{
+        background-color: gray;
+}
+.greenbox{
+        margin-top: 5px;
+        border: 4px solid green;
+        height: 390px;
+}
+.box{
+        width: 170px;
+        height: 160px;
+        border: 5px solid red;
+        border-radius: 20px;
+        display: flex;
+
+}
+.box1{
+        float: left;
+        /* clear: left; */
+        margin-bottom: 50px;
+        background: white;
+}
+.box1:shadow{
+        box-shadow: 2px 2px 5px 0px violet;
+}
+.box1,h3{
+        font-size: bold;
+        /* text-align: center; */
+        color: solid blue;
+        text-shadow: 1px 1px 2px black;
+}
+
+.box2{
+        float: right;
+        position: relative;
+        right:50px;
+        background: white;
+        background-image: url(./image.png);
+        padding: 10px;
+}
+.box3{
+        float: left;
+        clear: left;
+        background: white;
+}
+.box3,h4{
+        text-align:center ;
+        font-size: 15px;
+        color: solid blue;
+        text-shadow: 1px 1px 2px black;
+}
+.box4{
+        float: right;
+        position: relative;
+        right:50px;
+        background: white;
+}
+.box4,h2{
+        text-align: center;
+        color:solid blue;
+        font-size: bold;
+}
+.box4,h3{
+        text-align: center;
+        color: blue;
+}
+/* #submit{
+        background-color: red;
+} */
+.flex{
+        display: flex;
+        justify-content: center;
+}
+.parent{
+        
+         margin-top: 10px;
+        width: 680px;
+        height: 500px;
+        border: 5px solid blueviolet;
+        background-color: hsl(112, 88%, 39%);
+        margin-left: 200px;
+        position: 50%;
+        
+}
+.text{
+        font-size: 50px;
+        font-weight: bold;
+        text-align: center;
+        font-size: bold;
+        color: black;
+}
+.Box1{
+        width: 309px;
+        height: 200px;
+        border: 3px solid black;
+        background-color: yellow;
+        float: left;
+}
+.Box1,h2{
+        text-align: center;
+}
+.Box1,p{
+        text-align: center;
+        font-size: medium;
+}
+.Box2{
+        width: 309px;
+        height: 200px;
+        border: 3px solid black;
+        background-color: yellow;
+        float: right;
+}
+.Box2,h2{
+        text-align: center;
+}
+.Box2,p{
+        text-align: center;
+        font-size:medium ;
+}
+.Box3{
+        width: 686px;
+        height: 200px;
+        border: 3px solid black;
+        background-color: yellow;
+        float: left;
+        position: relative;
+}
+.Box3,h3{
+        text-align: center;
+}
+.Box3,p{
+        text-align: center;
+        font-size: medium;
+}
+.overbox{
+        width: 350px;
+        height: 75px;
+        border: 5px solid red;
+        border-radius: 20px;
+        background-color:rgb(200, 249, 7);
+        position: sticky;
+        left: 25%;
+        bottom: 300px;
+}
+.overbox:shadow{
+        box-shadow: 2px 2px 0px violet;
+}
+.overbox,h3{
+        float: left;
+        color: red;
+}
+.overbox,p{
+        float: right;
+        color: red;
+}
+.upperbox{
+        width: 450px;
+        height: 100px;
+        border: 5px solid red;
+        border-radius: 10px;
+        background-color: white;
+        position: relative;
+        left: 35%;
+
+}
+.start{
+        text-align: center;
+        font-size: bold;
+        color: brown;
+        text-shadow: 1px 1px 3px violet;
+}
